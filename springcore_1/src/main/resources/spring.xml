@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+		xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation = "http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean id ="customer" class = "address.customer.Customer">
+	<property name="cid" value="6369" />
+	<property name="cname" value="rama" />
+	<property name="ccontact" value="968978955" />
+	<property name="caddress" value="Vvrm" />
+
+</bean>
+
+<bean id ="address" class="address.customer.Address">
+	<property name = "street" value="Main Road" />
+	<property name = "city" value="VVrm" />
+	<property name="state" value="AP" />
+	<property name="zip" value="534245" />
+	<property name = "country" value="india" />
+</bean>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</beans>
